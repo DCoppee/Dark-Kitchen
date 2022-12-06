@@ -2,10 +2,10 @@
 body{
     font-family: 'Roboto', sans-serif;
     color:#302432 ;
+    font-size: 5vw;
     margin:0;
     padding:0;
 }
-
 
 //--------------------------------------------------------------HEADER-------------------------------------------------------------------------------//
 
@@ -63,6 +63,7 @@ body{
     grid-area: 1 / 1 / 2 / 2; 
     background-color:#c8e17c;
     background-image: url(images/backgroundblanc.png);
+    font-family: 'Lobster', cursive;
     background-size:cover;
     background-repeat: no-repeat;
  }
@@ -87,7 +88,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
  }
- 
+
 //---------------------------------------------------------//
 
 #carte-sucré{
@@ -100,6 +101,7 @@ body{
  #s-titre{
     grid-area: 1 / 1 / 2 / 2; 
     background-color:#f68091;
+    font-family: 'Lobster', cursive;
     background-image: url(images/backgroundblanc.png);
     background-size:cover;
     background-repeat: no-repeat;
@@ -165,8 +167,11 @@ body{
 
 //--------------------------------------------------------------FOOTER-------------------------------------------------------------------------------//
 footer{
-    background-image: url(images/background.png);
+   /* background-image: url(images/background.png);*/
+   width: auto;
+   height: 15em;
     background-size: cover;
+    background-color: #bfffe7;
 }
 
 #p-footer{
@@ -179,8 +184,8 @@ footer{
     list-style-type: none;  
     display: flex;
     justify-content: center;
-    padding: 0.5em 0.5em 2em 0.5em;
-    fill: #09c47c;
+    padding: 0em 0.5em 2em 0.5em;
+    fill: blue;
 }
 
 #insta{
@@ -191,23 +196,23 @@ footer{
     padding-left: 1em;
 }
 
-//-----------------------------ANIMATION FOOTER---------------------------------------------//
-
+//-----------------------------ANIMATION FOOTER POUR MEDIA QUERIES---------------------------------------------//
+/*
 #facebook:hover{
-    fill:rgb(34, 34, 34);
+    fill:rgb(255, 255, 255);
     cursor:pointer;
 }
 
 #insta:hover{
-    fill:rgb(34, 34, 34);
+    fill:rgb(255, 255, 255);
     cursor:pointer;
 }
 
 #twitter:hover{
-    fill:rgb(34, 34, 34);
+    fill:rgb(255, 255, 255);
     cursor:pointer;
 }
-/*
+
 @media (prefers-color-scheme: dark) {
 
 body{
