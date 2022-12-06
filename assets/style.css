@@ -1,0 +1,208 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto", sans-serif;
+  color: #302432;
+  margin: 0;
+  padding: 0;
+}
+
+#box-header {
+  background-image: url(images/background.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+#box-header #box-header-top {
+  display: flex;
+  justify-content: space-between;
+}
+#box-header #box-header-top #logo-header {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  margin: 2%;
+}
+#box-header #box-header-top #panier-header {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  margin: 2%;
+}
+#box-header #p-header {
+  text-align: center;
+  font-size: 60px;
+  padding: 10vh 0vw 10vh;
+}
+
+#description {
+  text-align: center;
+  margin: 2%;
+}
+
+#carte-végé {
+  width: auto;
+  height: 23em;
+  display: grid;
+  margin-bottom: 2em;
+}
+
+#v-titre {
+  grid-area: 1/1/2/2;
+  background-color: #c8e17c;
+  background-image: url(images/backgroundblanc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#v-plat-1 {
+  grid-area: 1/2/2/3;
+  background-image: url(images/VEGGIE01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#v-plat-2 {
+  grid-area: 2/1/3/2;
+  background-image: url(images/VEGGIE02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#v-plat-3 {
+  grid-area: 2/2/3/3;
+  background-image: url(images/VEGGIE03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#carte-sucré {
+  width: auto;
+  height: 23em;
+  display: grid;
+  margin-bottom: 2em;
+}
+
+#s-titre {
+  grid-area: 1/1/2/2;
+  background-color: #f68091;
+  background-image: url(images/backgroundblanc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#s-plat-1 {
+  grid-area: 1/2/2/3;
+  background-image: url(images/SUGAR01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#s-plat-2 {
+  grid-area: 2/1/3/2;
+  background-image: url(images/SUGAR02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#s-plat-3 {
+  grid-area: 2/2/3/3;
+  background-image: url(images/SUGAR03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#carte-bouffé {
+  width: auto;
+  height: 23em;
+  display: grid;
+}
+
+#b-titre {
+  grid-area: 1/1/2/2;
+  background-color: #fb7539;
+  background-image: url(images/backgroundblanc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#b-plat-1 {
+  grid-area: 1/2/2/3;
+  background-image: url(images/JUNK01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#b-plat-2 {
+  grid-area: 2/1/3/2;
+  background-image: url(images/JUNK02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#b-plat-3 {
+  grid-area: 2/2/3/3;
+  background-image: url(images/JUNK03.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background-image: url(images/background.png);
+  background-size: cover;
+}
+
+#p-footer {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+}
+
+#icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 0.5em 2em 0.5em;
+  fill: #09c47c;
+}
+
+#insta {
+  padding-left: 1em;
+}
+
+#twitter {
+  padding-left: 1em;
+}
+
+#facebook:hover {
+  fill: rgb(34, 34, 34);
+  cursor: pointer;
+}
+
+#insta:hover {
+  fill: rgb(34, 34, 34);
+  cursor: pointer;
+}
+
+#twitter:hover {
+  fill: rgb(34, 34, 34);
+  cursor: pointer;
+}
+
+/*
+@media (prefers-color-scheme: dark) {
+
+body{
+    background-color:#302432  ;
+    color: white;
+}
+footer{
+        background-image: url(images/backgroundfondnoir.png);
+        background-size: cover;
+}
+}*//*# sourceMappingURL=style.css.map */
