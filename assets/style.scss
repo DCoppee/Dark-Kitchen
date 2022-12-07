@@ -6,7 +6,6 @@ body{
     padding:0;
 }
 
-
 //--------------------------------------------------------------HEADER-------------------------------------------------------------------------------//
 
 #box-header{
@@ -61,7 +60,7 @@ body{
 
  #v-titre{
     grid-area: 1 / 1 / 2 / 2; 
-    background-color:#c8e17c;
+    background-color: #c8e17c;
     background-image: url(images/backgroundblanc.png);
     background-size:cover;
     background-repeat: no-repeat;
@@ -87,7 +86,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
  }
- 
+
 //---------------------------------------------------------//
 
 #carte-sucré{
@@ -164,9 +163,13 @@ body{
  }
 
 //--------------------------------------------------------------FOOTER-------------------------------------------------------------------------------//
+
 footer{
-    background-image: url(images/background.png);
+   /* background-image: url(images/background.png);*/
+    width: auto;
+    height: 15em;
     background-size: cover;
+    background-color: rgb(72, 135, 177);
 }
 
 #p-footer{
@@ -179,8 +182,8 @@ footer{
     list-style-type: none;  
     display: flex;
     justify-content: center;
-    padding: 0.5em 0.5em 2em 0.5em;
-    fill: #09c47c;
+    padding: 0em 0.5em 2em 0.5em;
+    fill: rgb(29, 56, 73);
 }
 
 #insta{
@@ -191,31 +194,72 @@ footer{
     padding-left: 1em;
 }
 
-//-----------------------------ANIMATION FOOTER---------------------------------------------//
 
-#facebook:hover{
-    fill:rgb(34, 34, 34);
-    cursor:pointer;
-}
 
-#insta:hover{
-    fill:rgb(34, 34, 34);
-    cursor:pointer;
-}
-
-#twitter:hover{
-    fill:rgb(34, 34, 34);
-    cursor:pointer;
-}
-/*
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 
 body{
     background-color:#302432  ;
     color: white;
 }
-footer{
-        background-image: url(images/backgroundfondnoir.png);
-        background-size: cover;
+
+}*/
+
+//--------------------------------------------------------------MEDIA QUERIES-------------------------------------------------------------------------------//
+
+@media screen and (min-width: 1023px) {
+
+#cartes{
+    height:30em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
 }
+        
+    #carte-végé{ 
+    height:30em;
+    grid-area: 2 / 1 / 3 / 2; 
+    background-size: cover;
+}
+                    
+    #carte-sucré{ 
+    height:30em;
+    background-size: cover;
+    grid-area: 2 / 2 / 3 / 3; 
+}
+        
+    #carte-bouffé{ 
+    height:30em;   
+    background-size: cover;
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+
+//-----------------------------ANIMATION FOOTER POUR MEDIA QUERIES---------------------------------------------//
+
+#facebook:hover{
+    fill:rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+#insta:hover{
+    fill:rgb(255, 255, 255);
+    cursor:pointer;
+}
+
+#twitter:hover{
+    fill:rgb(255, 255, 255);
+    cursor:pointer;
+}
+}
+
+//--------------------------------------------------------------DARK MODE-------------------------------------------------------------------------------//
+
+/*@media (prefers-color-scheme: dark) {
+
+body{
+    background-color:#302432  ;
+    color: white;
+}
+
 }*/
