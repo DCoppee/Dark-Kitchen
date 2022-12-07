@@ -1,9 +1,9 @@
-@import './scss/_mixins';
+/*@import './scss/_mixins';
 // pour importer un élément: @include absolute-el()
 @import './scss/_placeholders'; 
 // pour importer un élément: @extend %lenomdetonplaceholder
 @import './scss/_variables';
-// pour importer un élément: $exemplecouleur
+// pour importer un élément: $exemplecouleur */
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -304,12 +304,12 @@ footer{
 
 @media screen and (min-width: 1023px) {
 
-    @import './scss/_mixins';
+   /* @import './scss/_mixins';
     // pour importer un élément: @include absolute-el()
     @import './scss/_placeholders'; 
     // pour importer un élément: @extend %lenomdetonplaceholder
     @import './scss/_variables';
-    // pour importer un élément: $exemplecouleur
+    // pour importer un élément: $exemplecouleur*/
     
     #cartes{
         height:30em;
