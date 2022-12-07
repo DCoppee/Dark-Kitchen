@@ -23,30 +23,74 @@ body {
   background-color: black;
   display: flex;
   justify-content: flex-start;
-  margin: 2%;
+  margin: 8%;
 }
 #box-header #box-header-top #panier-header {
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  background-color: black;
+  width: 30px;
+  height: 30px;
+  fill: #09c47c;
   display: flex;
   justify-content: flex-end;
-  margin: 2%;
+  margin: 10%;
 }
 #box-header #h1-header {
   text-align: center;
   font-size: 230%;
   padding: 10vh 0vw 10vh;
 }
-
-#p-description {
+#box-header #p-description {
   text-align: center;
-  margin: 2%;
-  color: #302432;
+  margin: 7%;
   font-size: 100%;
   line-height: 150%;
   letter-spacing: 50%;
+}
+#box-header #p-description .p1-gras {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+}
+#box-header #p-description .p1-c {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #fb7539;
+}
+#box-header #p-description .p1-o {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#box-header #p-description .p1-l {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #f68091;
+}
+#box-header #p-description .p1-o2 {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#box-header #p-description .p1-r {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #fb7539;
+}
+#box-header #p-description .p1-é {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#box-header #p-description .p3-simple {
+  font-family: "Nerko One", cursive;
+  font-size: 200%;
+}
+#box-header #p-description .p3-gras {
+  font-family: "Nerko One", cursive;
+  font-size: 200%;
+  color: #f68091;
+}
+#box-header #p-description .p3-excl {
+  font-family: "Nerko One", cursive;
+  font-size: 200%;
 }
 
 #carte-végé {
@@ -212,6 +256,7 @@ footer {
 
 #p-footer {
   text-align: center;
+  font-weight: bolder;
   padding-top: 3em;
   padding-bottom: 1.5em;
 }
