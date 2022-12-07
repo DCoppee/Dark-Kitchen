@@ -39,10 +39,11 @@ body{
 }
 }
 
-    #h1-header{
-        text-align: center;
-        font-size: 230%;
-        padding: 10vh 0vw 10vh;
+#h1-header{
+    text-align: center;
+    font-size: 230%;
+    font-family: 'Nerko One', cursive;
+    padding: 10vh 0vw 10vh;
     }
 }
 
@@ -83,8 +84,8 @@ body{
     font-family: 'Nerko One', cursive;
     font-size: 350%;
     text-transform: uppercase;
-    margin-left: 27%;
-    margin-top: 9%;
+    margin-left: 27% ;
+    margin-top: 30%;
     }
 
  #v-plat-1{
@@ -138,7 +139,7 @@ body{
     font-size: 350%;
     text-transform: uppercase;
     margin-left: 20%;
-    margin-top: 9%;
+    margin-top: 30%;
     }
 
  #s-plat-1{
@@ -190,8 +191,8 @@ body{
     font-family: 'Nerko One', cursive;
     font-size: 350%;
     text-transform: uppercase;
-    margin-left: 17%;
-    margin-top: 9%;
+    margin-left: 16%;
+    margin-top: 30%;
     }
 
  #b-plat-1{
@@ -276,6 +277,35 @@ footer{
     grid-area: 2 / 3 / 3 / 4;
 }
 
+#s-titre{
+    position:absolute;
+    width: 16.8%;
+    height: 15em;
+}
+
+#v-titre{
+    position:absolute;
+    width: 16.8%;
+    height: 15em;
+}
+
+#b-titre{
+    position:absolute;
+    width: 16.8%;
+    height: 15em;
+}
+
+.sucré-txt {
+    margin-top: 35%;
+}
+
+.végé-txt {
+    margin-top: 35%;
+}
+
+.-txt {
+    margin-top: 35%;
+}
 
 //-----------------------------ANIMATION FOOTER POUR MEDIA QUERIES---------------------------------------------//
 
@@ -308,6 +338,7 @@ footer{
 #p-footer{
     font-size: 1.5em;
 }
+
 }
 
 //--------------------------------------------------------------DARK MODE-------------------------------------------------------------------------------//
@@ -323,5 +354,7 @@ body{
 #box-header{
     background-image: url(images/backgrounddarkmode.png);
 }
-
+#p-description{
+    color: white;
+}
 }
