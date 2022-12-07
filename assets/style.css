@@ -43,11 +43,57 @@ body {
 
 #p-description {
   text-align: center;
-  margin: 2%;
-  color: #302432;
+  margin: 7%;
   font-size: 100%;
   line-height: 150%;
   letter-spacing: 50%;
+}
+#p-description .p1-gras {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+}
+#p-description .p1-c {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #fb7539;
+}
+#p-description .p1-o {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#p-description .p1-l {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #f68091;
+}
+#p-description .p1-o2 {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#p-description .p1-r {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #fb7539;
+}
+#p-description .p1-é {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#p-description .p3-simple {
+  font-family: "Nerko One", cursive;
+  font-size: 200%;
+}
+#p-description .p3-gras {
+  font-family: "Nerko One", cursive;
+  font-size: 200%;
+  color: #f68091;
+}
+#p-description .p3-excl {
+  font-family: "Nerko One", cursive;
+  font-size: 200%;
 }
 
 #carte-végé {
