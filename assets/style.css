@@ -36,9 +36,9 @@ body {
 }
 #box-header #h1-header {
   text-align: center;
-  font-size: 230%;
+  font-size: 250%;
   font-family: "Nerko One", cursive;
-  padding: 10vh 0vw 10vh;
+  padding: 10vh 0vw 0vh;
 }
 
 #p-description {
@@ -207,7 +207,6 @@ body {
 }
 
 footer {
-  /* background-image: url(images/background.png);*/
   width: auto;
   height: 15em;
   background-size: cover;
@@ -229,11 +228,11 @@ footer {
 }
 
 #insta {
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 #twitter {
-  padding-left: 1em;
+  padding-left: 2em;
 }
 
 @media screen and (min-width: 1023px) {
