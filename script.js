@@ -3,7 +3,6 @@ let cartes = document.getElementById("cartes");
 let div = document.createElement("div");
 div.setAttribute("class", "newDiv");
 
-document.querySelector("newDiv").addEventListener("click", remove);
 document.getElementById("v-plat-1").addEventListener("click", vege1);
 document.getElementById("v-plat-2").addEventListener("click", vege2);
 document.getElementById("v-plat-3").addEventListener("click", vege3);
