@@ -4,7 +4,7 @@
 @import './scss/_placeholders'; 
 // pour importer un élément: @extend %lenomdetonplaceholder
 @import './scss/_variables';
-// pour importer un élément: $exemplecouleur */
+// pour importer un élément: $exemplecouleur*/
 body {
   font-family: "Roboto", sans-serif;
   color: #302432;
@@ -29,73 +29,75 @@ body {
   background-color: black;
   display: flex;
   justify-content: flex-start;
-  margin: 8%;
+  margin: 2%;
 }
 #box-header #box-header-top #panier-header {
-  width: 30px;
-  height: 30px;
-  fill: #09c47c;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: black;
   display: flex;
   justify-content: flex-end;
-  margin: 10%;
+  margin: 2%;
 }
 #box-header #h1-header {
   text-align: center;
-  font-size: 230%;
+  font-size: 250%;
   font-family: "Nerko One", cursive;
-  padding: 10vh 0vw 10vh;
+  padding: 10vh 0vw 0vh;
 }
-#box-header #p-description {
+
+#p-description {
   text-align: center;
   margin: 7%;
   font-size: 100%;
   line-height: 150%;
   letter-spacing: 50%;
 }
-#box-header #p-description .p1-gras {
+#p-description .p1-gras {
   font-family: "Nerko One", cursive;
   font-size: 150%;
 }
-#box-header #p-description .p1-c {
-  font-family: "Nerko One", cursive;
-  font-size: 150%;
-  color: #fb7539;
-}
-#box-header #p-description .p1-o {
-  font-family: "Nerko One", cursive;
-  font-size: 150%;
-  color: #c8e17c;
-}
-#box-header #p-description .p1-l {
-  font-family: "Nerko One", cursive;
-  font-size: 150%;
-  color: #f68091;
-}
-#box-header #p-description .p1-o2 {
-  font-family: "Nerko One", cursive;
-  font-size: 150%;
-  color: #c8e17c;
-}
-#box-header #p-description .p1-r {
+#p-description .p1-c {
   font-family: "Nerko One", cursive;
   font-size: 150%;
   color: #fb7539;
 }
-#box-header #p-description .p1-é {
+#p-description .p1-o {
   font-family: "Nerko One", cursive;
   font-size: 150%;
   color: #c8e17c;
 }
-#box-header #p-description .p3-simple {
+#p-description .p1-l {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #f68091;
+}
+#p-description .p1-o2 {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#p-description .p1-r {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #fb7539;
+}
+#p-description .p1-é {
+  font-family: "Nerko One", cursive;
+  font-size: 150%;
+  color: #c8e17c;
+}
+#p-description .p3-simple {
   font-family: "Nerko One", cursive;
   font-size: 200%;
 }
-#box-header #p-description .p3-gras {
+#p-description .p3-gras {
   font-family: "Nerko One", cursive;
   font-size: 200%;
   color: #f68091;
 }
-#box-header #p-description .p3-excl {
+#p-description .p3-excl {
   font-family: "Nerko One", cursive;
   font-size: 200%;
 }
@@ -265,7 +267,6 @@ footer {
 
 #p-footer {
   text-align: center;
-  font-weight: bolder;
   padding-top: 3em;
   padding-bottom: 1.5em;
 }
@@ -274,8 +275,8 @@ footer {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding: 0.5em 0.5em 2em 0.5em;
-  fill: #09c47c;
+  padding: 0em 0.5em 2em 0.5em;
+  fill: #302432;
 }
 
 #insta {
@@ -287,12 +288,12 @@ footer {
 }
 
 @media screen and (min-width: 1023px) {
-  /* @import './scss/_mixins';
-   // pour importer un élément: @include absolute-el()
-   @import './scss/_placeholders'; 
-   // pour importer un élément: @extend %lenomdetonplaceholder
-   @import './scss/_variables';
-   // pour importer un élément: $exemplecouleur*/
+  /*@import './scss/_mixins';
+  // pour importer un élément: @include absolute-el()
+  @import './scss/_placeholders'; 
+  // pour importer un élément: @extend %lenomdetonplaceholder
+  @import './scss/_variables';
+  // pour importer un élément: $exemplecouleur*/
   #cartes {
     height: 30em;
     display: grid;
