@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Nerko+One&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style> @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Nerko+One&family=Roboto&display=swap'); </style>
 </head>
 <body>
@@ -29,6 +30,22 @@
                     <p class="p2">Profitez de nos saveurs réconfortantes, élaborées grâce aux produits les plus caloriques du marché !</p>
                     <p class="p3">Commandez en un clic et nous livrons chez vous : <span class="p3-simple">simple, rapide et</span> <span class="p3-gras">gras</span> <span class="p3-excl">!</span></p> 
                 </div>
+                <!--------------- CART MODAL ------------>
+                <div class="cart-modal-overlay">
+                    <div class="cart-modal">
+                        <i id="close-btn" class="fas fa-times"></i>
+                          <h1 class="cart-is-empty">Cart is empty</h1>
+                        
+                          <div class="product-rows">
+                          </div>
+                          <div class="total">
+                            <h1 class="cart-total">TOTAL</h1>
+                              <span class="total-price">$0</span>
+                                <button class="purchase-btn">PURCHASE</button>
+                          </div>
+                    </div>
+                </div>
+                <!------------ END CART MODAL ------------>
             </div>
         </header>
         <main>
