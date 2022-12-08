@@ -40,6 +40,7 @@ function cardCoverMobileVege() {
   divVege.style.backgroundRepeat = "no-repeat";
   divVege.style.backgroundSize = "cover";
   divVege.style.marginBottom = "2em";
+  divVege.style.filter = "blur(5px)";
 }
 
 function vege1() {
@@ -75,6 +76,7 @@ function cardCoverMobileSucre() {
   divSucre.style.backgroundRepeat = "no-repeat";
   divSucre.style.backgroundSize = "cover";
   divSucre.style.marginBottom = "2em";
+  divSucre.style.filter = "blur(5px)";
 }
 
 function sucre1() {
@@ -110,6 +112,7 @@ function cardCoverMobileBouffe() {
   divBouffe.style.backgroundRepeat = "no-repeat";
   divBouffe.style.backgroundSize = "cover";
   divBouffe.style.marginBottom = "2em";
+  divBouffe.style.filter = "blur(5px)";
 }
 
 function bouffe1() {
