@@ -50,7 +50,7 @@ body{
     }
 }
 
-//--------------------------------------------------------------PERSONALISATION TEXT-------------------------------------------------------------------------------//
+//---------------------------PERSONALISATION TEXT---------------------------//
 
 #p-description{
     text-align: center;
@@ -60,56 +60,56 @@ body{
     letter-spacing: 50%;
 
 .p1-gras {
-    @extend %fontsize;
+    @include font('Nerko One', 150%);
 }
 
 .p1-c {
-    @extend %fontsize;
+    @include font('Nerko One', 150%);
     color:$orange;
 }
 
 .p1-o {
-    @extend %fontsize;
+    @include font('Nerko One', 150%);
     color: $bleu;
 }
 
 .p1-l {
-    @extend %fontsize;
+    @include font('Nerko One', 150%);
     color:$rose;
 }
 
 .p1-o2 {
-    @extend %fontsize;
+    @include font('Nerko One', 150%);
     color:$bleu;
 }
 
 .p1-r {
-    @extend %fontsize;
+    @include font('Nerko One', 150%);
     color: $orange;
 }
 
-.p1-é {
-    @extend %fontsize;
+.p1-e {
+    @include font('Nerko One', 150%);
     color: $bleu;
 }
 
 .p3-simple {
-    @extend %fontsize02;
+    @include font('Nerko One', 200%);
 }
 
 .p3-gras {
-    @extend %fontsize02;
+    @include font('Nerko One', 200%);
     color:$rose;
 }
 
 .p3-excl {
-    @extend %fontsize02;
+    @include font('Nerko One', 200%);
 }
 }
 
 //--------------------------------------------------------------MAIN-------------------------------------------------------------------------------//
 
-#carte-végé{
+#carte-vege{
     @include wihe (100%,51%);
     display:grid;
     margin-bottom: 2em;
@@ -125,7 +125,7 @@ body{
     @extend %back;
 }    
 
-.végé-txt {
+.vege-txt {
     position:absolute;
     z-index: 2;
     color: white;
@@ -155,7 +155,7 @@ body{
 
 //---------------------------------------------------------//
 
-#carte-sucré{
+#carte-sucre{
     @include wihe (100%,51%);
     display:grid;
     margin-bottom: 2em;
@@ -173,7 +173,7 @@ body{
     font-family: 'Nerko One', cursive;
  }
 
- .sucré-txt {
+ .sucre-txt {
     position:absolute;
     z-index: 2;
     color: white;
@@ -181,7 +181,7 @@ body{
     text-transform: uppercase;
     margin-left: 20%;
     margin-top: 0.8em;
-    }
+}
 
  #s-plat-1{
     grid-area: 1 / 2 / 2 / 3; 
@@ -203,7 +203,7 @@ body{
 
  //---------------------------------------------------------//
 
- #carte-bouffé{
+ #carte-bouffe{
     @include wihe (100%,51%);
     display:grid;
 }
@@ -219,7 +219,7 @@ body{
     color: white;
     font-family: 'Nerko One', cursive;
  }
- .bouffé-txt {
+ .bouffe-txt {
     position:absolute;
     z-index: 2;
     color: white;
@@ -295,19 +295,19 @@ footer{
     grid-template-rows: repeat(2, 1fr); 
 }
         
-    #carte-végé{ 
+    #carte-vege{ 
     height:30em;
     grid-area: 2 / 1 / 3 / 2; 
     background-size: cover;
 }
                     
-    #carte-sucré{ 
+    #carte-sucre{ 
     height:30em;
     background-size: cover;
     grid-area: 2 / 2 / 3 / 3; 
 }
         
-    #carte-bouffé{ 
+    #carte-bouffe{ 
     height:30em;   
     background-size: cover;
     grid-area: 2 / 3 / 3 / 4;
@@ -328,16 +328,16 @@ footer{
     @include wihe (16.8%,15em);
 }
 
-.sucré-txt {
+.sucre-txt {
     margin-top: 37%;
 }
 
-.végé-txt {
+.vege-txt {
     margin-top: 37%;
     margin-left:25% ;
 }
 
-.bouffé-txt {
+.bouffe-txt {
     margin-top: 37%;
 }
 
@@ -411,7 +411,7 @@ body{
 .p1-r {
     color:$orange;
 }
-.p1-é {
+.p1-e {
     color: $vert;
 }
 }
