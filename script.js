@@ -1,15 +1,51 @@
-/******************Varaiables*******************/
+/******************Variables*******************/
+/* const menuVege = [
+  { plat: "Salade de tofu aux trois vinaigrettes et frites",
+    prix: 12,
+  },
+  { plat: "Buddha bowl aux boulettes de faux gras, caramel et frites",
+    prix: 12,
+  },
+  { plat: "Burger garni aux frites, peanut butter et beignets d’oignons",
+    prix: 12,
+  },
+]
+const menuSucre = [
+  { plat: "Gâteau Oreo, ganache chocolat au lait et crème 100%",
+    prix: 12,
+  },
+  { plat: "Merveilleux du chef, cassonade-chocolat-fruits confits",
+    prix: 12,
+  },
+  { plat: "Gaufre de Liège à la chantilly alourdie, sauce anglaise et sucre glace",
+    prix: 12,
+  },
+]
+const menuBouffe = [
+  { plat: "Pita tartiflette sans crudités, sauche riche",
+    prix: 12,
+  },
+  { plat: "Panini poulycroc, fromage à raclette et mayonnaise aux oeufs",
+    prix: 12,
+  },
+  { plat: "Pizza 3x3 (trois fromages, trois charcuteries)",
+    prix: 12,
+  },
+] */
 
 let carteVege = document.getElementById("carte-vege");
 let carteSucre = document.getElementById("carte-sucre");
 let carteBouffe = document.getElementById("carte-bouffe");
 let cartes = document.getElementById("cartes");
+
 let divVege = document.createElement("div");
 divVege.setAttribute("class", "divVege");
 document.body.appendChild(divVege);
+
 let divSucre = document.createElement("div");
 divSucre.setAttribute("class", "divSucre");
 document.body.appendChild(divSucre);
+
 let divBouffe = document.createElement("div");
 divBouffe.setAttribute("class", "divBouffe");
 document.body.appendChild(divBouffe);
@@ -19,12 +55,15 @@ document.body.appendChild(divBouffe);
 document.getElementById("v-plat-1").addEventListener("click", vege1);
 document.getElementById("v-plat-2").addEventListener("click", vege2);
 document.getElementById("v-plat-3").addEventListener("click", vege3);
+
 document.getElementById("s-plat-1").addEventListener("click", sucre1);
 document.getElementById("s-plat-2").addEventListener("click", sucre2);
 document.getElementById("s-plat-3").addEventListener("click", sucre3);
+
 document.getElementById("b-plat-1").addEventListener("click", bouffe1);
 document.getElementById("b-plat-2").addEventListener("click", bouffe2);
 document.getElementById("b-plat-3").addEventListener("click", bouffe3);
+
 document.querySelector(".divVege").addEventListener("click", removeVege);
 document.querySelector(".divSucre").addEventListener("click", removeSucre);
 document.querySelector(".divBouffe").addEventListener("click", removeBouffe);
@@ -63,7 +102,6 @@ function vege3() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileVege();
     divVege.style.backgroundImage = "url(/assets/images/VEGGIE03.png)";
-  } else {
   }
 }
 
@@ -77,6 +115,7 @@ function cardCoverMobileSucre() {
   divVege.style.backgroundPosition = "center;";
   divSucre.style.backgroundSize = "cover";
   divSucre.style.marginBottom = "2em";
+  divSucre.style.filter = "blur(5px)";
   divSucre.style.filter = "blur(5px)";
 }
 
@@ -111,6 +150,7 @@ function cardCoverMobileBouffe() {
   divVege.style.backgroundPosition = "center;";
   divBouffe.style.backgroundSize = "cover";
   divBouffe.style.marginBottom = "2em";
+  divBouffe.style.filter = "blur(5px)";
   divBouffe.style.filter = "blur(5px)";
 }
 
