@@ -1,8 +1,8 @@
 /******************Varaiables*******************/
 
-let carteVege = document.getElementById("carte-végé");
-let carteSucre = document.getElementById("carte-sucré");
-let carteBouffe = document.getElementById("carte-bouffé");
+let carteVege = document.getElementById("carte-vege");
+let carteSucre = document.getElementById("carte-sucre");
+let carteBouffe = document.getElementById("carte-bouffe");
 let cartes = document.getElementById("cartes");
 let divVege = document.createElement("div");
 divVege.setAttribute("class", "divVege");
@@ -42,13 +42,13 @@ function cardCoverMobileVege() {
   divVege.style.backgroundSize = "cover";
   divVege.style.marginBottom = "2em";
   divVege.style.position = "relative";
+  divVege.style.filter = "blur(5px)";
 }
 
 function vege1() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileVege();
     divVege.style.backgroundImage = "url(/assets/images/VEGGIE01.png)";
-  } else {
   }
 }
 
@@ -56,7 +56,6 @@ function vege2() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileVege();
     divVege.style.backgroundImage = "url(/assets/images/VEGGIE02.png)";
-  } else {
   }
 }
 
@@ -78,13 +77,13 @@ function cardCoverMobileSucre() {
   divVege.style.backgroundPosition = "center;";
   divSucre.style.backgroundSize = "cover";
   divSucre.style.marginBottom = "2em";
+  divSucre.style.filter = "blur(5px)";
 }
 
 function sucre1() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileSucre();
     divSucre.style.backgroundImage = "url(/assets/images/SUGAR01.png)";
-  } else {
   }
 }
 
@@ -92,7 +91,6 @@ function sucre2() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileSucre();
     divSucre.style.backgroundImage = "url(/assets/images/SUGAR02.png)";
-  } else {
   }
 }
 
@@ -100,7 +98,6 @@ function sucre3() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileSucre();
     divSucre.style.backgroundImage = "url(/assets/images/SUGAR03.png)";
-  } else {
   }
 }
 
@@ -114,13 +111,13 @@ function cardCoverMobileBouffe() {
   divVege.style.backgroundPosition = "center;";
   divBouffe.style.backgroundSize = "cover";
   divBouffe.style.marginBottom = "2em";
+  divBouffe.style.filter = "blur(5px)";
 }
 
 function bouffe1() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileBouffe();
     divBouffe.style.backgroundImage = "url(/assets/images/JUNK01.png)";
-  } else {
   }
 }
 
@@ -128,7 +125,6 @@ function bouffe2() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileBouffe();
     divBouffe.style.backgroundImage = "url(/assets/images/JUNK02.png)";
-  } else {
   }
 }
 
@@ -136,7 +132,6 @@ function bouffe3() {
   if (window.matchMedia("(max-width: 1023px)").matches) {
     cardCoverMobileBouffe();
     divBouffe.style.backgroundImage = "url(/assets/images/JUNK03.png)";
-  } else {
   }
 }
 

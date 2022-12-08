@@ -1,4 +1,8 @@
-@charset "UTF-8";
+#b-plat-3, #b-plat-2, #b-plat-1, #b-titre, #s-plat-3, #s-plat-2, #s-plat-1, #s-titre, #v-plat-3, #v-plat-2, #v-plat-1, #v-titre {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #302432;
@@ -28,8 +32,8 @@ body {
 }
 
 #box-header #box-header-top #logo-header {
-  height: 45px;
   width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: black;
   display: -webkit-box;
@@ -42,8 +46,8 @@ body {
 }
 
 #box-header #box-header-top #panier-header {
-  height: 2.5em;
   width: 2.5em;
+  height: 2.5em;
   border-radius: 50%;
   fill: #4887b1;
   display: -webkit-box;
@@ -57,8 +61,12 @@ body {
 
 #box-header #h1-header {
   text-align: center;
+  font-family: "Nerko One";
   font-size: 250%;
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   padding: 10vh 0vw 0vh;
 }
 
@@ -71,35 +79,56 @@ body {
 }
 
 #p-description .p1-gras {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
 }
 
 #p-description .p1-c {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
   color: #fb7539;
 }
 
 #p-description .p1-o {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
-  color: #c8e17c;
+  color: rgb(72, 135, 177);
 }
 
 #p-description .p1-l {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
   color: #f68091;
 }
 
 #p-description .p1-o2 {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
-  color: #c8e17c;
+  color: rgb(72, 135, 177);
 }
 
 #p-description .p1-r {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
   font-size: 150%;
   color: #fb7539;
@@ -107,27 +136,47 @@ body {
 
 #p-description .p1-é {
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
   font-size: 150%;
-  color: #c8e17c;
+  color: #fb7539;
+}
+#p-description .p1-e {
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
+  font-size: 150%;
+  color: rgb(72, 135, 177);
 }
 
 #p-description .p3-simple {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 200%;
 }
 
 #p-description .p3-gras {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 200%;
   color: #f68091;
 }
 
 #p-description .p3-excl {
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 200%;
 }
 
-#carte-végé {
+#carte-vege {
   width: 100%;
   height: 51%;
   display: -ms-grid;
@@ -147,15 +196,17 @@ body {
   grid-area: 1 / 1 / 2 / 2;
   background-color: #c8e17c;
   background-image: url(images/backgroundblanc.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.végé-txt {
+.vege-txt {
   position: absolute;
   z-index: 2;
   color: white;
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 350%;
   text-transform: uppercase;
   margin-left: 1.2em;
@@ -169,8 +220,6 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
   background-image: url(images/VEGGIE01.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #v-plat-2 {
@@ -180,8 +229,6 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 3 / 2;
   background-image: url(images/VEGGIE02.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #v-plat-3 {
@@ -191,11 +238,9 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
   background-image: url(images/VEGGIE03.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-#carte-sucré {
+#carte-sucre {
   width: 100%;
   height: 51%;
   display: -ms-grid;
@@ -215,17 +260,19 @@ body {
   grid-area: 1 / 1 / 2 / 2;
   background-color: #f68091;
   background-image: url(images/backgroundblanc.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   font-family: 'Nerko One', cursive;
 }
 
-.sucré-txt {
+.sucre-txt {
   position: absolute;
   z-index: 2;
   color: white;
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 350%;
   text-transform: uppercase;
   margin-left: 20%;
@@ -239,8 +286,6 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
   background-image: url(images/SUGAR01.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #s-plat-2 {
@@ -250,8 +295,6 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 3 / 2;
   background-image: url(images/SUGAR02.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #s-plat-3 {
@@ -261,11 +304,9 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
   background-image: url(images/SUGAR03.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-#carte-bouffé {
+#carte-bouffe {
   width: 100%;
   height: 51%;
   display: -ms-grid;
@@ -284,17 +325,19 @@ body {
   grid-area: 1 / 1 / 2 / 2;
   background-color: #fb7539;
   background-image: url(images/backgroundblanc.png);
-  background-size: cover;
-  background-repeat: no-repeat;
   color: white;
   font-family: 'Nerko One', cursive;
 }
 
-.bouffé-txt {
+.bouffe-txt {
   position: absolute;
   z-index: 2;
   color: white;
+<<<<<<< HEAD
   font-family: 'Nerko One', cursive;
+=======
+  font-family: "Nerko One";
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 350%;
   text-transform: uppercase;
   margin-left: 16%;
@@ -308,8 +351,6 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3;
   background-image: url(images/JUNK01.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #b-plat-2 {
@@ -319,8 +360,6 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 1 / 3 / 2;
   background-image: url(images/JUNK02.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #b-plat-3 {
@@ -330,8 +369,6 @@ body {
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3;
   background-image: url(images/JUNK03.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 footer {
@@ -368,6 +405,10 @@ footer {
 }
 
 @media screen and (min-width: 1023px) {
+  #v-titre, #v-plat-1, #v-plat-2, #v-plat-3, #s-titre, #s-plat-1, #s-plat-2, #s-plat-3, #b-titre, #b-plat-1, #b-plat-2, #b-plat-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   #cartes {
     height: 30em;
     display: -ms-grid;
@@ -377,7 +418,7 @@ footer {
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
   }
-  #carte-végé {
+  #carte-vege {
     height: 30em;
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
@@ -386,7 +427,7 @@ footer {
     grid-area: 2 / 1 / 3 / 2;
     background-size: cover;
   }
-  #carte-sucré {
+  #carte-sucre {
     height: 30em;
     background-size: cover;
     -ms-grid-row: 2;
@@ -395,7 +436,7 @@ footer {
     -ms-grid-column-span: 1;
     grid-area: 2 / 2 / 3 / 3;
   }
-  #carte-bouffé {
+  #carte-bouffe {
     height: 30em;
     background-size: cover;
     -ms-grid-row: 2;
@@ -419,14 +460,15 @@ footer {
     width: 16.8%;
     height: 15em;
   }
-  .sucré-txt {
-    margin-top: 35%;
+  .sucre-txt {
+    margin-top: 37%;
   }
-  .végé-txt {
-    margin-top: 35%;
+  .vege-txt {
+    margin-top: 37%;
+    margin-left: 25%;
   }
-  .-txt {
-    margin-top: 35%;
+  .bouffe-txt {
+    margin-top: 37%;
   }
   #facebook:hover {
     fill: white;
@@ -452,6 +494,11 @@ footer {
   #p-footer {
     font-size: 1.5em;
   }
+  #panier-header:hover {
+    fill: white;
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -465,6 +512,7 @@ footer {
   #p-description {
     color: white;
   }
+<<<<<<< HEAD
 }
 
 /******************PANIER******************/
@@ -680,3 +728,24 @@ footer {
   }
 }
 /*# sourceMappingURL=style.css.map */
+=======
+  #p-description .p1-c {
+    color: #fb7539;
+  }
+  #p-description .p1-o {
+    color: #c8e17c;
+  }
+  #p-description .p1-l {
+    color: #f68091;
+  }
+  #p-description .p1-o2 {
+    color: #c8e17c;
+  }
+  #p-description .p1-r {
+    color: #fb7539;
+  }
+  #p-description .p1-e {
+    color: #c8e17c;
+  }
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
