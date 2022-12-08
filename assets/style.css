@@ -368,32 +368,32 @@ footer {
   #p-description {
     color: white;
   }
-  .p1-c {
+  #p-description .p1-c {
     font-family: "Nerko One", cursive;
     font-size: 150%;
     color: #fb7539;
   }
-  .p1-o {
+  #p-description .p1-o {
     font-family: "Nerko One", cursive;
     font-size: 150%;
     color: #c8e17c;
   }
-  .p1-l {
+  #p-description .p1-l {
     font-family: "Nerko One", cursive;
     font-size: 150%;
     color: #f68091;
   }
-  .p1-o2 {
+  #p-description .p1-o2 {
     font-family: "Nerko One", cursive;
     font-size: 150%;
     color: #c8e17c;
   }
-  .p1-r {
+  #p-description .p1-r {
     font-family: "Nerko One", cursive;
     font-size: 150%;
     color: #fb7539;
   }
-  .p1-é {
+  #p-description .p1-é {
     font-family: "Nerko One", cursive;
     font-size: 150%;
     color: #c8e17c;
