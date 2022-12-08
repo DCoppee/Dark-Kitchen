@@ -1,10 +1,10 @@
-#v-titre, #v-plat-1, #v-plat-2, #v-plat-3, #s-titre, #s-plat-1, #s-plat-2, #s-plat-3, #b-titre, #b-plat-1, #b-plat-2, #b-plat-3 {
+#b-plat-3, #b-plat-2, #b-plat-1, #b-titre, #s-plat-3, #s-plat-2, #s-plat-1, #s-titre, #v-plat-3, #v-plat-2, #v-plat-1, #v-titre {
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #302432;
   margin: 0;
   padding: 0;
@@ -13,52 +13,31 @@ body {
 #box-header {
   background-image: url(images/background.png);
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 #box-header #box-header-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 #box-header #box-header-top #logo-header {
   width: 45px;
   height: 45px;
   border-radius: 50%;
   background-color: black;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
   margin: 2%;
 }
-
 #box-header #box-header-top #panier-header {
   width: 2.5em;
   height: 2.5em;
   border-radius: 50%;
-  fill: #4887b1;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  fill: rgb(72, 135, 177);
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
   margin: 2%;
 }
-
 #box-header #h1-header {
   text-align: center;
   font-family: "Nerko One";
@@ -73,59 +52,49 @@ body {
   line-height: 150%;
   letter-spacing: 50%;
 }
-
 #p-description .p1-gras {
   font-family: "Nerko One";
   font-size: 150%;
 }
-
 #p-description .p1-c {
   font-family: "Nerko One";
   font-size: 150%;
   color: #fb7539;
 }
-
 #p-description .p1-o {
   font-family: "Nerko One";
   font-size: 150%;
-  color: #4887b1;
+  color: rgb(72, 135, 177);
 }
-
 #p-description .p1-l {
   font-family: "Nerko One";
   font-size: 150%;
   color: #f68091;
 }
-
 #p-description .p1-o2 {
   font-family: "Nerko One";
   font-size: 150%;
-  color: #4887b1;
+  color: rgb(72, 135, 177);
 }
-
 #p-description .p1-r {
   font-family: "Nerko One";
   font-size: 150%;
   color: #fb7539;
 }
-
 #p-description .p1-e {
   font-family: "Nerko One";
   font-size: 150%;
-  color: #4887b1;
+  color: rgb(72, 135, 177);
 }
-
 #p-description .p3-simple {
   font-family: "Nerko One";
   font-size: 200%;
 }
-
 #p-description .p3-gras {
   font-family: "Nerko One";
   font-size: 200%;
   color: #f68091;
 }
-
 #p-description .p3-excl {
   font-family: "Nerko One";
   font-size: 200%;
@@ -134,7 +103,6 @@ body {
 #carte-vege {
   width: 100%;
   height: 51%;
-  display: -ms-grid;
   display: grid;
   margin-bottom: 2em;
 }
@@ -144,11 +112,7 @@ body {
   width: 50%;
   height: 25.5%;
   z-index: 1;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1/1/2/2;
   background-color: #c8e17c;
   background-image: url(images/backgroundblanc.png);
 }
@@ -165,36 +129,23 @@ body {
 }
 
 #v-plat-1 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1/2/2/3;
   background-image: url(images/VEGGIE01.png);
 }
 
 #v-plat-2 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2/1/3/2;
   background-image: url(images/VEGGIE02.png);
 }
 
 #v-plat-3 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2/2/3/3;
   background-image: url(images/VEGGIE03.png);
 }
 
 #carte-sucre {
   width: 100%;
   height: 51%;
-  display: -ms-grid;
   display: grid;
   margin-bottom: 2em;
 }
@@ -204,15 +155,11 @@ body {
   width: 50%;
   height: 25.5%;
   z-index: 1;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1/1/2/2;
   background-color: #f68091;
   background-image: url(images/backgroundblanc.png);
   color: white;
-  font-family: 'Nerko One', cursive;
+  font-family: "Nerko One", cursive;
 }
 
 .sucre-txt {
@@ -227,36 +174,23 @@ body {
 }
 
 #s-plat-1 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1/2/2/3;
   background-image: url(images/SUGAR01.png);
 }
 
 #s-plat-2 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2/1/3/2;
   background-image: url(images/SUGAR02.png);
 }
 
 #s-plat-3 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2/2/3/3;
   background-image: url(images/SUGAR03.png);
 }
 
 #carte-bouffe {
   width: 100%;
   height: 51%;
-  display: -ms-grid;
   display: grid;
 }
 
@@ -265,15 +199,11 @@ body {
   width: 50%;
   height: 25.5%;
   z-index: 1;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1/1/2/2;
   background-color: #fb7539;
   background-image: url(images/backgroundblanc.png);
   color: white;
-  font-family: 'Nerko One', cursive;
+  font-family: "Nerko One", cursive;
 }
 
 .bouffe-txt {
@@ -288,29 +218,17 @@ body {
 }
 
 #b-plat-1 {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 1 / 2 / 2 / 3;
+  grid-area: 1/2/2/3;
   background-image: url(images/JUNK01.png);
 }
 
 #b-plat-2 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2/1/3/2;
   background-image: url(images/JUNK02.png);
 }
 
 #b-plat-3 {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 1;
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2/2/3/3;
   background-image: url(images/JUNK03.png);
 }
 
@@ -318,7 +236,7 @@ footer {
   width: auto;
   height: 15em;
   background-size: cover;
-  background-color: #4887b1;
+  background-color: rgb(72, 135, 177);
 }
 
 #p-footer {
@@ -329,12 +247,8 @@ footer {
 
 #icons {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 0em 0.5em 2em 0.5em;
   fill: #302432;
 }
@@ -354,39 +268,24 @@ footer {
   }
   #cartes {
     height: 30em;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-    -ms-grid-rows: (1fr)[2];
-        grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
   #carte-vege {
     height: 30em;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 1;
-    grid-area: 2 / 1 / 3 / 2;
+    grid-area: 2/1/3/2;
     background-size: cover;
   }
   #carte-sucre {
     height: 30em;
     background-size: cover;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 1;
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 2/2/3/3;
   }
   #carte-bouffe {
     height: 30em;
     background-size: cover;
-    -ms-grid-row: 2;
-    -ms-grid-row-span: 1;
-    -ms-grid-column: 3;
-    -ms-grid-column-span: 1;
-    grid-area: 2 / 3 / 3 / 4;
+    grid-area: 2/3/3/4;
   }
   #s-titre {
     position: absolute;
@@ -440,11 +339,9 @@ footer {
   #panier-header:hover {
     fill: white;
     cursor: pointer;
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    transform: translateY(-5px);
   }
 }
-
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #302432;
@@ -475,16 +372,11 @@ footer {
     color: #c8e17c;
   }
 }
-
 /******************PANIER******************/
 .cart-btn {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 #cart {
@@ -497,9 +389,9 @@ footer {
 .cart-quantity {
   color: white;
   background-color: red;
-  padding: .2em .3em;
+  padding: 0.2em 0.3em;
   position: absolute;
-  margin: .8em 7.5em 0 0;
+  margin: 0.8em 7.5em 0 0;
   right: 0;
   border: solid 2px red;
   border-radius: 15px;
@@ -507,18 +399,15 @@ footer {
 }
 
 .divVege .add-to-cart {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .divSucre .add-to-cart {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .divBouffe .add-to-cart {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .product-image {
@@ -531,11 +420,9 @@ footer {
   position: absolute;
   right: 0;
   top: 65%;
-  padding: .5em 1em;
-  -webkit-transform: translateX(300px);
-          transform: translateX(300px);
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  padding: 0.5em 1em;
+  transform: translateX(300px);
+  transition: 0.5s ease;
   outline: none;
   border: none;
   cursor: pointer;
@@ -553,20 +440,22 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
+  /* width: 100%;
+   height: 100%;*/
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
-  -webkit-transform: translateX(-200%);
-          transform: translateX(-200%);
-  -webkit-transition: .5s ease-out;
-  transition: .5s ease-out;
+  transform: translateX(-200%);
+  transition: 0.5s ease-out;
 }
 
 .cart-modal {
-  height: 100vh;
+  /*height: 100vh;
+  width: 50%;*/
   width: 50%;
-  background-color: #323232;
+  height: 100vh;
+  background-color: #302432;
   float: right;
   overflow: scroll;
   overflow-x: hidden;
@@ -575,7 +464,7 @@ footer {
 
 #close-btn {
   font-size: 1.5rem;
-  margin: .5em 1em 0 0;
+  margin: 0.5em 1em 0 0;
   color: white;
   cursor: pointer;
   position: absolute;
@@ -609,7 +498,7 @@ footer {
 .purchase-btn {
   font-size: 1rem;
   font-weight: bolder;
-  background-color: green;
+  background-color: rgb(72, 135, 177);
   color: white;
   padding: 1em 2em;
   border-radius: 10px;
@@ -627,12 +516,8 @@ footer {
 }
 
 .product-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .cart-image {
@@ -665,8 +550,7 @@ footer {
 }
 
 .remove-btn:active {
-  -webkit-transform: translateY(5px);
-          transform: translateY(5px);
+  transform: translateY(5px);
 }
 
 @media (max-width: 1000px) {
@@ -674,10 +558,7 @@ footer {
     width: 100vw;
   }
   .product-row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 2em;
   }
@@ -685,7 +566,6 @@ footer {
     margin: 0;
   }
   .product-quantity {
-    margin: .5em 0 .5em 0;
+    margin: 0.5em 0 0.5em 0;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
