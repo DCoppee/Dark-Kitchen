@@ -26,10 +26,10 @@ body {
   margin: 2%;
 }
 #box-header #box-header-top #panier-header {
-  height: 45px;
-  width: 45px;
+  height: 2.5em;
+  width: 2.5em;
   border-radius: 50%;
-  background-color: black;
+  fill: rgb(72, 135, 177);
   display: flex;
   justify-content: flex-end;
   margin: 2%;
