@@ -54,6 +54,7 @@ body{
 }
 
 //--------------------------------------------------------------PERSONALISATION TEXT-------------------------------------------------------------------------------//
+
 #p-description{
     text-align: center;
     margin: 7%;
@@ -61,54 +62,63 @@ body{
     line-height: 150%;
     letter-spacing: 50%;
 
-        .p1-gras {
-            font-family: 'Nerko One', cursive;
-            font-size: 150%;
-        }
-        .p1-c {
-            font-family: 'Nerko One', cursive;
-            font-size: 150%;
-            color:#fb7539;
-        }
-        .p1-o {
-            font-family: 'Nerko One', cursive;
-            font-size: 150%;
-            color: #c8e17c;
-        }
-        .p1-l {
-            font-family: 'Nerko One', cursive;
-            font-size: 150%;
-            color:#f68091;
-        }
-        .p1-o2 {
-            font-family: 'Nerko One', cursive;
-            font-size: 150%;
-            color:#c8e17c;
-        }
-        .p1-r {
-            font-family: 'Nerko One', cursive;
-            font-size: 150%;
-            color: #fb7539;
-        }
-        .p1-é {
-            font-family: 'Nerko One', cursive;
-            font-size: 150%;
-            color: #c8e17c;
-        }
-        .p3-simple {
-            font-family: 'Nerko One', cursive;
-            font-size: 200%;
-        }
-        .p3-gras {
-            font-family: 'Nerko One', cursive;
-            font-size: 200%;
-            color:#f68091;
-        }
-        .p3-excl {
-            font-family: 'Nerko One', cursive;
-            font-size: 200%;
-        }
-    }
+.p1-gras {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+}
+
+.p1-c {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color:#fb7539;
+}
+
+.p1-o {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color: rgb(72, 135, 177);
+}
+
+.p1-l {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color:#f68091;
+}
+
+.p1-o2 {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color:rgb(72, 135, 177)
+}
+
+.p1-r {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color: #fb7539;
+}
+
+.p1-é {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color: rgb(72, 135, 177);
+}
+
+.p3-simple {
+    font-family: 'Nerko One', cursive;
+    font-size: 200%;
+}
+
+.p3-gras {
+    font-family: 'Nerko One', cursive;
+    font-size: 200%;
+    color:#f68091;
+}
+
+.p3-excl {
+    font-family: 'Nerko One', cursive;
+    font-size: 200%;
+}
+}
 
 //--------------------------------------------------------------MAIN-------------------------------------------------------------------------------//
 
@@ -270,7 +280,7 @@ body{
     background-repeat: no-repeat;
  }
 
-//--------------------------------------------------------------FOOTER-------------------------------------------------------------------------------//
+//-----------------------------------FOOTER------------------------------------------------//
 
 footer{
     width: auto;
@@ -301,7 +311,7 @@ footer{
     padding-left: 2em;
 }
 
-//--------------------------------------------------------------MEDIA QUERIES-------------------------------------------------------------------------------//
+//----------------------------------MEDIA QUERIES----------------------------//
 
 @media screen and (min-width: 1023px) {
 
@@ -356,15 +366,16 @@ footer{
 }
 
 .sucré-txt {
-    margin-top: 35%;
+    margin-top: 37%;
 }
 
 .végé-txt {
-    margin-top: 35%;
+    margin-top: 37%;
+    margin-left:25% ;
 }
 
-.-txt {
-    margin-top: 35%;
+.bouffé-txt {
+    margin-top: 37%;
 }
 
 //-----------------------------ANIMATION FOOTER POUR MEDIA QUERIES---------------------------------------------//
@@ -398,6 +409,11 @@ footer{
 #p-footer{
     font-size: 1.5em;
 }
+#panier-header:hover{
+    fill:rgb(255, 255, 255);
+    cursor:pointer;
+    transform: translateY(-5px);
+}
 
 }
 
@@ -416,5 +432,37 @@ body{
 }
 #p-description{
     color: white;
+
+
+.p1-c {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color:#fb7539;
+}
+.p1-o {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color: #c8e17c;
+}
+.p1-l {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color:#f68091;
+}
+.p1-o2 {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color:#c8e17c;
+}
+.p1-r {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color: #fb7539;
+}
+.p1-é {
+    font-family: 'Nerko One', cursive;
+    font-size: 150%;
+    color: #c8e17c;
+}
 }
 }
