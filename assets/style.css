@@ -1,4 +1,4 @@
-#b-plat-3, #b-plat-2, #b-plat-1, #b-titre, #s-plat-3, #s-plat-2, #s-plat-1, #s-titre, #v-plat-3, #v-plat-2, #v-plat-1, #v-titre {
+#v-titre, #v-plat-1, #v-plat-2, #v-plat-3, #s-titre, #s-plat-1, #s-plat-2, #s-plat-3, #b-titre, #b-plat-1, #b-plat-2, #b-plat-3 {
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -63,10 +63,6 @@ body {
   text-align: center;
   font-family: "Nerko One";
   font-size: 250%;
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   padding: 10vh 0vw 0vh;
 }
 
@@ -79,100 +75,59 @@ body {
 }
 
 #p-description .p1-gras {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
 }
 
 #p-description .p1-c {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
   color: #fb7539;
 }
 
 #p-description .p1-o {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
-  color: rgb(72, 135, 177);
+  color: #4887b1;
 }
 
 #p-description .p1-l {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
   color: #f68091;
 }
 
 #p-description .p1-o2 {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
-  color: rgb(72, 135, 177);
+  color: #4887b1;
 }
 
 #p-description .p1-r {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
+  font-family: "Nerko One";
   font-size: 150%;
   color: #fb7539;
 }
 
-#p-description .p1-é {
-  font-family: 'Nerko One', cursive;
-=======
-  font-family: "Nerko One";
-  font-size: 150%;
-  color: #fb7539;
-}
 #p-description .p1-e {
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 150%;
-  color: rgb(72, 135, 177);
+  color: #4887b1;
 }
 
 #p-description .p3-simple {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 200%;
 }
 
 #p-description .p3-gras {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 200%;
   color: #f68091;
 }
 
 #p-description .p3-excl {
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 200%;
 }
 
@@ -202,11 +157,7 @@ body {
   position: absolute;
   z-index: 2;
   color: white;
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 350%;
   text-transform: uppercase;
   margin-left: 1.2em;
@@ -268,11 +219,7 @@ body {
   position: absolute;
   z-index: 2;
   color: white;
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 350%;
   text-transform: uppercase;
   margin-left: 20%;
@@ -333,11 +280,7 @@ body {
   position: absolute;
   z-index: 2;
   color: white;
-<<<<<<< HEAD
-  font-family: 'Nerko One', cursive;
-=======
   font-family: "Nerko One";
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
   font-size: 350%;
   text-transform: uppercase;
   margin-left: 16%;
@@ -497,7 +440,8 @@ footer {
   #panier-header:hover {
     fill: white;
     cursor: pointer;
-    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
   }
 }
 
@@ -512,7 +456,24 @@ footer {
   #p-description {
     color: white;
   }
-<<<<<<< HEAD
+  #p-description .p1-c {
+    color: #fb7539;
+  }
+  #p-description .p1-o {
+    color: #c8e17c;
+  }
+  #p-description .p1-l {
+    color: #f68091;
+  }
+  #p-description .p1-o2 {
+    color: #c8e17c;
+  }
+  #p-description .p1-r {
+    color: #fb7539;
+  }
+  #p-description .p1-e {
+    color: #c8e17c;
+  }
 }
 
 /******************PANIER******************/
@@ -728,24 +689,3 @@ footer {
   }
 }
 /*# sourceMappingURL=style.css.map */
-=======
-  #p-description .p1-c {
-    color: #fb7539;
-  }
-  #p-description .p1-o {
-    color: #c8e17c;
-  }
-  #p-description .p1-l {
-    color: #f68091;
-  }
-  #p-description .p1-o2 {
-    color: #c8e17c;
-  }
-  #p-description .p1-r {
-    color: #fb7539;
-  }
-  #p-description .p1-e {
-    color: #c8e17c;
-  }
-}/*# sourceMappingURL=style.css.map */
->>>>>>> 60114114602b8eb7dcb37b075501b9bcd5ca3e4a
