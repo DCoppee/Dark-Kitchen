@@ -1,36 +1,37 @@
 /******************Variables*******************/
 /* const menuVege = [
-  { plat: "Salade de tofu aux trois vinaigrettes et frites",
-    prix: 12,
-  },
-  { plat: "Buddha bowl aux boulettes de faux gras, caramel et frites",
-    prix: 12,
-  },
-  { plat: "Burger garni aux frites, peanut butter et beignets d’oignons",
-    prix: 12,
-  },
+  "Salade de tofu aux trois vinaigrettes et frites",
+    "Buddha bowl aux boulettes de faux gras, caramel et frites",
+    "Burger garni aux frites, peanut butter et beignets d’oignons",
+  ]
+
+const prixVege = [
+    {Prix: 12},
+    {Prix: 12},
+    {Prix: 12}
 ]
+
 const menuSucre = [
-  { plat: "Gâteau Oreo, ganache chocolat au lait et crème 100%",
-    prix: 12,
-  },
-  { plat: "Merveilleux du chef, cassonade-chocolat-fruits confits",
-    prix: 12,
-  },
-  { plat: "Gaufre de Liège à la chantilly alourdie, sauce anglaise et sucre glace",
-    prix: 12,
-  },
+    "Gâteau Oreo, ganache chocolat au lait et crème 100%", "Merveilleux du chef, cassonade-chocolat-fruits confits",
+    "Gaufre de Liège à la chantilly alourdie, sauce anglaise et sucre glace",
+  ]
+
+const prixSucre = [
+    {Prix: 12},
+    {Prix: 12},
+    {Prix: 12}
 ]
+
 const menuBouffe = [
-  { plat: "Pita tartiflette sans crudités, sauche riche",
-    prix: 12,
-  },
-  { plat: "Panini poulycroc, fromage à raclette et mayonnaise aux oeufs",
-    prix: 12,
-  },
-  { plat: "Pizza 3x3 (trois fromages, trois charcuteries)",
-    prix: 12,
-  },
+    "Pita tartiflette sans crudités, sauche riche",
+   "Panini poulycroc, fromage à raclette et mayonnaise aux oeufs",
+   "Pizza 3x3 (trois fromages, trois charcuteries)",
+  ]
+
+const prixBouffe = [
+    {Prix: 12},
+    {Prix: 12},
+    {Prix: 12}
 ] */
 
 let carteVege = document.getElementById("carte-vege");
@@ -216,7 +217,7 @@ cartModalOverlay.addEventListener("click", (e) => {
 });
 // end of close cart modal
 
-// add products to cart
+// add products to cart - Benjamin
 const addToCart = document.getElementsByClassName("add-to-cart");
 const productRow = document.getElementsByClassName("product-row");
 const button1 = document.createElement("button");
@@ -272,6 +273,55 @@ function addItemToCart(price, imageSrc) {
   updateCartPrice();
 }
 // end of add products to cart
+
+/*add products to cart - me
+const panierContainer = document.getElementsByClassName("paniercontainer")[0];
+const panier = document.getElementsByClassName("panier")[0];
+const panierButton = document.getElementById("panier-header");
+
+var addToCartButtons = document.getElementsByClassName("shop-button");
+for (var i = 0; i < addToCartButtons.length; i++) {
+    var button = addToCartButtons[i]
+    button.addEventListener('click', addToCartClicked)
+}
+
+function addToCartClicked(event) {
+    var button = event.target
+    var shopItem = button.parentElement.parentElement
+    var productname = shopItem.getElementsByClassName('item-title')[0].innerText
+    var price = shopItem.getElementsByClassName('item-price')[0].innerText
+    var imageSrc = shopItem.getElementsByClassName('item-image')[0].src
+    addItemToCart(productname, price, imageSrc)
+    updateCartTotal()
+}
+
+function addItemToCart(productname, price, imageSrc) {
+    var cartRow = document.createElement('div')
+    cartRow.classList.add('cart-row')
+    var productsNames = panier.getElementsByClassName("productname") //or whatever we will name that in the html
+    var cartRowContents = `
+    <div class="product">
+        <h4 class="productname"></h4>
+        <img class="productimage">
+        <div class="counter">
+            <button class="button-more">+</button>
+            <div class="count"></div>
+            <button class="button-less">-</button>
+            <button class="button-delete">Supprimer</button>
+        </div>
+        <div><span class="price"></span>€</div>
+    </div>
+    `
+    cartRow.innerHTML = cartRowContents
+    panier.append(cartRow)
+}
+
+const checkout = document.getElementsByClassName("checkout")[0];
+checkout.addEventListener('click', purchaseClicked)
+function purchaseClicked() {
+    alert('Commande passée !')
+}
+*/
 
 // Remove products from cart
 const removeBtn = document.getElementsByClassName("remove-btn");
