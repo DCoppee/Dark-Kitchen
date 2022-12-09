@@ -261,118 +261,6 @@ footer {
   padding-left: 2em;
 }
 
-@media screen and (min-width: 1023px) {
-  #v-titre, #v-plat-1, #v-plat-2, #v-plat-3, #s-titre, #s-plat-1, #s-plat-2, #s-plat-3, #b-titre, #b-plat-1, #b-plat-2, #b-plat-3 {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  #cartes {
-    height: 30em;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-  #carte-vege {
-    height: 30em;
-    grid-area: 2/1/3/2;
-    background-size: cover;
-  }
-  #carte-sucre {
-    height: 30em;
-    background-size: cover;
-    grid-area: 2/2/3/3;
-  }
-  #carte-bouffe {
-    height: 30em;
-    background-size: cover;
-    grid-area: 2/3/3/4;
-  }
-  #s-titre {
-    position: absolute;
-    width: 16.8%;
-    height: 15em;
-  }
-  #v-titre {
-    position: absolute;
-    width: 16.8%;
-    height: 15em;
-  }
-  #b-titre {
-    position: absolute;
-    width: 16.8%;
-    height: 15em;
-  }
-  .sucre-txt {
-    margin-top: 37%;
-  }
-  .vege-txt {
-    margin-top: 37%;
-    margin-left: 25%;
-  }
-  .bouffe-txt {
-    margin-top: 37%;
-  }
-  #facebook:hover {
-    fill: white;
-    cursor: pointer;
-  }
-  #insta:hover {
-    fill: white;
-    cursor: pointer;
-  }
-  #twitter:hover {
-    fill: white;
-    cursor: pointer;
-  }
-  footer {
-    height: 20em;
-  }
-  #insta {
-    padding-left: 5em;
-  }
-  #twitter {
-    padding-left: 5em;
-  }
-  #p-footer {
-    font-size: 1.5em;
-  }
-  #panier-header:hover {
-    fill: white;
-    cursor: pointer;
-    transform: translateY(-5px);
-  }
-}
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #302432;
-    color: white;
-  }
-  #box-header {
-    background-image: url(images/backgrounddarkmode.png);
-  }
-  #p-description {
-    color: white;
-  }
-  #p-description .p1-c {
-    color: #fb7539;
-  }
-  #p-description .p1-o {
-    color: #c8e17c;
-  }
-  #p-description .p1-l {
-    color: #f68091;
-  }
-  #p-description .p1-o2 {
-    color: #c8e17c;
-  }
-  #p-description .p1-r {
-    color: #fb7539;
-  }
-  #p-description .p1-e {
-    color: #c8e17c;
-  }
-}
-/******************PANIER******************/
 .cart-btn {
   position: relative;
   display: flex;
@@ -440,8 +328,6 @@ footer {
   position: fixed;
   top: 0;
   left: 0;
-  /* width: 100%;
-   height: 100%;*/
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
@@ -451,8 +337,6 @@ footer {
 }
 
 .cart-modal {
-  /*height: 100vh;
-  width: 50%;*/
   width: 50%;
   height: 100vh;
   background-color: #302432;
@@ -567,5 +451,116 @@ footer {
   }
   .product-quantity {
     margin: 0.5em 0 0.5em 0;
+  }
+}
+@media screen and (min-width: 1023px) {
+  #v-titre, #v-plat-1, #v-plat-2, #v-plat-3, #s-titre, #s-plat-1, #s-plat-2, #s-plat-3, #b-titre, #b-plat-1, #b-plat-2, #b-plat-3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #cartes {
+    height: 30em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  #carte-vege {
+    height: 30em;
+    grid-area: 2/1/3/2;
+    background-size: cover;
+  }
+  #carte-sucre {
+    height: 30em;
+    background-size: cover;
+    grid-area: 2/2/3/3;
+  }
+  #carte-bouffe {
+    height: 30em;
+    background-size: cover;
+    grid-area: 2/3/3/4;
+  }
+  #s-titre {
+    position: absolute;
+    width: 16.8%;
+    height: 15em;
+  }
+  #v-titre {
+    position: absolute;
+    width: 16.8%;
+    height: 15em;
+  }
+  #b-titre {
+    position: absolute;
+    width: 16.8%;
+    height: 15em;
+  }
+  .sucre-txt {
+    margin-top: 37%;
+  }
+  .vege-txt {
+    margin-top: 37%;
+    margin-left: 25%;
+  }
+  .bouffe-txt {
+    margin-top: 37%;
+  }
+  #facebook:hover {
+    fill: white;
+    cursor: pointer;
+  }
+  #insta:hover {
+    fill: white;
+    cursor: pointer;
+  }
+  #twitter:hover {
+    fill: white;
+    cursor: pointer;
+  }
+  footer {
+    height: 20em;
+  }
+  #insta {
+    padding-left: 5em;
+  }
+  #twitter {
+    padding-left: 5em;
+  }
+  #p-footer {
+    font-size: 1.5em;
+  }
+  #panier-header:hover {
+    fill: white;
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #302432;
+    color: white;
+  }
+  #box-header {
+    background-image: url(images/backgrounddarkmode.png);
+  }
+  #p-description {
+    color: white;
+  }
+  #p-description .p1-c {
+    color: #fb7539;
+  }
+  #p-description .p1-o {
+    color: #c8e17c;
+  }
+  #p-description .p1-l {
+    color: #f68091;
+  }
+  #p-description .p1-o2 {
+    color: #c8e17c;
+  }
+  #p-description .p1-r {
+    color: #fb7539;
+  }
+  #p-description .p1-e {
+    color: #c8e17c;
   }
 }/*# sourceMappingURL=style.css.map */
